@@ -1,0 +1,27 @@
+---
+layout: layout.njk
+title: News
+eleventyNavigation:
+  key: News
+  order: 2
+---
+
+<div class="container">
+    <div class="row justify-content-center pt-5 pb-5">
+        <div class="jumbotron text-center">
+            <h1 class="display-4"><span class="rmjs">RheinMainJS</span> News</h1>
+        </div>
+    </div>
+    <div class="news">
+        {%- for news in collections.news | reverse -%}
+            <div class="card">
+                <div class="card-header">{{ news.data.date | germanDate }}</div>
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{{ news.url }}">{{ news.data.title }}</a></h5>
+                    <p class="card-text">{{ news.templateContent | striptags | truncate(350) }}</p>
+                    <a href="{{ news.url }}" class="btn btn-light">weiterlesen</a>
+                </div>
+            </div>
+        {% endfor -%}
+    </div>
+</div>

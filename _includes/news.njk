@@ -1,0 +1,14 @@
+---
+layout: layout.njk
+---
+
+<div class="container">
+    <div><a href="{{ '/news' | url }}">← Zurück zur Übersicht</a></div>
+    <div class="row justify-content-center">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">{{ title }}</h1>
+        </div>
+        <h6>Geschrieben am {{ date | germanDate }} von {{ author }}</h6>
+    </div>
+    <div>{{ content | safe }}</div>
+</div>

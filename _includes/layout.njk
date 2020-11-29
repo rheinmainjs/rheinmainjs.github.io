@@ -1,0 +1,43 @@
+---
+title: RheinMainJS
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ '/css/custom.css' | url }}" rel="stylesheet">
+    <title>{{ title }}</title>
+</head>
+<body>
+<div class="container mt-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ '/' | url }}">
+                <img src="{{ '/img/logo.svg' | url }}" alt="RheinMainJS Logo" height="36" width="36">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                {% set navPages = collections.all | eleventyNavigation %}
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    {%- for entry in navPages %}
+                        <li class="nav-item">
+                            <a href="{{ entry.url | url }}"{% if entry.url == page.url %} class="active nav-link"{% else %} class="nav-link"{% endif %}>{{ entry.title }}</a>
+                        </li>
+                    {%- endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+{{ content | safe }}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+---
+layout: layout.njk
+pagination:
+  data: meetups
+  size: 1
+  alias: meetup
+permalink: "meetups/{{ meetup.title | slug }}/"
+---
+
+<div class="container">
+    <div><a href="/meetups">← Zurück zur Übersicht</a></div>
+    <div class="row justify-content-center">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">{{ meetup.title }}</h1>
+        </div>
+    </div>
+    <div>
+        {% if meetup.teaser %}
+            <blockquote>{{ meetup.teaser | safe }}</blockquote>
+        {% endif %}
+        <dl class="row">
+            <dt class="col-sm-2">Talks</dt>
+            <dd class="col-sm-10">
+                <ul>
+                    {%- for talk in meetup.talks -%}
+                        <li>
+                            <strong>"{{ talk.title }}"</strong> von&nbsp;{%- for speaker in talk.speakers -%}<a
+                            href="{{ speaker.url }}">{{ speaker.name }}</a> {% endfor -%}
+                        </li>
+                    {% endfor -%}
+                </ul>
+            </dd>
+            <dt class="col-sm-2">Wann?</dt>
+            <dd class="col-sm-10">{{ meetup.date }}</dd>
+            <dt class="col-sm-2">Wo?</dt>
+            <dd class="col-sm-10">
+                <a href="https://twitter.com/{{ meetup.location.twitter }}">{{ meetup.location.name }}</a>, {{ meetup.location.address }}
+            </dd>
+        </dl>
+    </div>
+</div>

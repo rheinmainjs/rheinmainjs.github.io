@@ -1,0 +1,27 @@
+{
+  "name": "rheinmainjs.github.io",
+  "version": "1.0.0",
+  "description": "rheinmainjs.de website based on Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy --pathprefix 'rmjs-11ty'",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
+  },
+  "keywords": [
+    "rheinmainjs",
+    "eleventy"
+  ],
+  "author": "Matthias Gutjahr",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
+    "eleventy-plugin-date": "^1.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha3"
+  }
+}
