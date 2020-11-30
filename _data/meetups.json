@@ -1,7 +1,7 @@
 [
   {
     "title": "16. Meetup RheinMainJS",
-    "date": "2019-05-07T19:00:00",
+    "date": "2019-05-07T19:00",
     "talks": [
       {
         "title": "TensorFlow.js",
@@ -33,7 +33,7 @@
   },
   {
     "title": "15. Meetup RheinMainJS",
-    "date": "2018-05-30T19:00:00",
+    "date": "2018-05-30T19:00",
     "talks": [
       {
         "title": "Progressive Web Apps von A bis Z",
@@ -55,7 +55,7 @@
   },
   {
     "title": "14. Meetup RheinMainJS",
-    "date": "2017-09-21T19:00:00",
+    "date": "2017-09-21T19:00",
     "talks": [
       {
         "title": "Aurelia - Das unterschätzte Framework",
@@ -87,7 +87,7 @@
   },
   {
     "title": "13. Meetup RheinMainJS",
-    "date": "2017-05-09T19:00:00",
+    "date": "2017-05-09T19:00",
     "talks": [
       {
         "title": "React-Entwicklung mit TypeScript",
@@ -123,7 +123,7 @@
   },
   {
     "title": "12. Meetup RheinMainJS",
-    "date": "2017-01-26T19:00:00",
+    "date": "2017-01-26T19:00",
     "talks": [
       {
         "title": "React",
@@ -165,7 +165,7 @@
   },
   {
     "title": "11. Meetup RheinMainJS",
-    "date": "2016-04-19T19:00:00",
+    "date": "2016-04-19T19:00",
     "talks": [
       {
         "title": "Machine Learning in the Browser",
@@ -201,7 +201,7 @@
   },
   {
     "title": "10. Meetup RheinMainJS",
-    "date": "2015-04-22T19:00:00",
+    "date": "2015-04-22T19:00",
     "talks": [
       {
         "title": "TypeScript 1.5",
@@ -233,7 +233,7 @@
   },
   {
     "title": "9. Meetup RheinMainJS",
-    "date": "2015-02-12T19:00:00",
+    "date": "2015-02-12T19:00",
     "talks": [
       {
         "title": "REACT NOW! - A library for user building interfaces",
@@ -255,7 +255,7 @@
   },
   {
     "title": "8. Meetup RheinMainJS",
-    "date": "2014-12-04T19:00:00",
+    "date": "2014-12-04T19:00",
     "talks": [
       {
         "title": "Web Components - Hintergründe und Praxiseinsatz",
@@ -277,7 +277,7 @@
   },
   {
     "title": "7. Meetup RheinMainJS",
-    "date": "2014-10-16T19:00:00",
+    "date": "2014-10-16T19:00",
     "talks": [
       {
         "title": "ExtJS 5 MVVM - WTF? FTW!",
@@ -309,7 +309,7 @@
   },
   {
     "title": "6. Meetup RheinMainJS",
-    "date": "2014-06-05T19:00:00",
+    "date": "2014-06-05T19:00",
     "talks": [
       {
         "title": "Sencha Ext Js (ExtJS 4)",
@@ -331,7 +331,7 @@
   },
   {
     "title": "5. Meetup RheinMainJS",
-    "date": "2014-04-24T19:00:00",
+    "date": "2014-04-24T19:00",
     "talks": [
       {
         "title": "Traceur. Next Generation JavaScript - Now!",
@@ -363,7 +363,7 @@
   },
   {
     "title": "4. Meetup RheinMainJS",
-    "date": "2014-02-13T19:00:00",
+    "date": "2014-02-13T19:00",
     "talks": [
       {
         "title": "Game Development mit Spell.js",
@@ -399,7 +399,7 @@
   },
   {
     "title": "3. Meetup RheinMainJS",
-    "date": "2013-03-04T19:00:00",
+    "date": "2013-03-04T19:00",
     "talks": [
       {
         "title": "JavaScript, die missverstandene Sprache … und wie man damit umgehen kann.",
@@ -431,7 +431,7 @@
   },
   {
     "title": "2. Meetup RheinMainJS",
-    "date": "2012-09-03T19:00:00",
+    "date": "2012-09-03T19:00",
     "talks": [
       {
         "title": "Native App-Entwicklung vs. Alternativen am Beispiel von Appcelerator",
@@ -463,7 +463,7 @@
   },
   {
     "title": "1. Meetup RheinMainJS",
-    "date": "2012-09-03T19:00:00",
+    "date": "2012-09-03T19:00",
     "talks": [
       {
         "title": "Javascript Tooling",
