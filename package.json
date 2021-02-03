@@ -22,6 +22,6 @@
     "eleventy-plugin-date": "^1.0.0"
   },
   "dependencies": {
-    "bootstrap": "^5.0.0-alpha3"
+    "bootstrap": "^5.0.0-beta1"
   }
 }
